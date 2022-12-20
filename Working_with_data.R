@@ -120,7 +120,7 @@ enaho05$sal_hora_depend <- replace(enaho05$sal_hora_depend, enaho05$sal_hora_dep
 
 #------------------ 3. Groupby --------------------------------
 
-# Se sabe que el programa Pensión 65 se focaliza en hogares pobres donde 
+# Se tiene conocimiento de que el programa Pensión 65 se focaliza en hogares pobres donde 
 # por lo menos un miembro tiene más de 65 años. Entonces, haciendo uso de 
 # la base de datos, se creará una variable dummy cuando el hogar que cumpla 
 # tales características. Para ello, se utilizará el Módulo 2 (características 
@@ -169,7 +169,7 @@ base_final_2 <- base_final_2 %>%
 
 
 
-#------------------ 4. Indicadores (Solo en R) --------------------------------
+#------------------ 4. Indicadores --------------------------------
 
 # 1. 
 # porcentaje que hogares a nivel departamental (o región) que se beneficia del programa Juntos
